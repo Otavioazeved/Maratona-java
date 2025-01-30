@@ -22,8 +22,11 @@ public class TestExercicioCar01 {
         car1.model = "black";
         car1.year = 2020;
 
-        System.out.println("--------");
+        // referencia de objeto
 
+        car1 = car2;
+
+        System.out.println("--------");
         car2.name = "corolla";
         car2.model = "blue";
         car2.year = 2024;
