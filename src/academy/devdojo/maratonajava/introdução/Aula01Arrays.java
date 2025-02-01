@@ -9,7 +9,7 @@ public class Aula01Arrays {
         idades [3] = 216;
         idades [4] = 216;
         idades [5] = 2188;
-        System.out.println(idades[6]);
+        System.out.println(idades[1]);
 
 
 

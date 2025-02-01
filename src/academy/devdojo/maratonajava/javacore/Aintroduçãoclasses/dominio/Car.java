@@ -5,5 +5,12 @@ public class Car {
     public String model;
     public int year;
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name='" + name + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                '}';
+    }
 }
