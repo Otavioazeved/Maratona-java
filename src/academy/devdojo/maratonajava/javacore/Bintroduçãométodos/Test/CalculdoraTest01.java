@@ -8,7 +8,6 @@ public class CalculdoraTest01 {
         int resultadoSoma = calculadora.somaDoisNumeros(10,9);
         System.out.println( "o resultado da soma é: " + resultadoSoma);
         calculadora.subtraiDoisNumeros();
-        calculadora.multiplicandoDoisNumeros();
         calculadora.divisaoDeDoisNumeros();
         System.out.println("Finalizando CalculadoraTest01");
 
