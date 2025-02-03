@@ -48,6 +48,10 @@ public class Calculadora {
         System.out.println("num1 " + num1);
         System.out.println("num2 " + num2);
     }
+    public  void temperatura(int temp){
+        temp = 30;
+        System.out.println("tempCopia: " + temp);
+    }
 
 }
 
