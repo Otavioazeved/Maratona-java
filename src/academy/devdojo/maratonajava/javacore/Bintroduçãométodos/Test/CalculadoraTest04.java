@@ -9,9 +9,12 @@ public class CalculadoraTest04 {
         int ori1 = 456;
         int ori2 = 789;
         calculadora.alterandNumerosTest(ori1, ori2);
-        System.out.println("depois do metodo");
-        System.out.println(ori1);
-        System.out.println(ori2);
+
+        System.out.println("depois do metodo:");
+
+        System.out.println("num1: " + ori1);
+
+        System.out.println("num2: " +ori2);
     }
 
 }

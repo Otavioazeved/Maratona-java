@@ -44,9 +44,9 @@ public class Calculadora {
     public void alterandNumerosTest(int num1, int num2) {
         num1 = 123;
         num2 = 321;
-        System.out.println("dentro do metodo");
-        System.out.println("num1 " + num1);
-        System.out.println("num2 " + num2);
+        System.out.println("dentro do metodo:");
+        System.out.println("num1: " + num1);
+        System.out.println("num2: " + num2);
     }
 
     public  void temperatura(int temp){
