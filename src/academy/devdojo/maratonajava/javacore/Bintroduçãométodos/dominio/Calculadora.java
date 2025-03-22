@@ -49,15 +49,34 @@ public class Calculadora {
         System.out.println("num2: " + num2);
     }
 
-    public  void temperatura(int temp){
+    public  void temperatura(int temp) {
         temp = 30;
         System.out.println("tempCopia: " + temp);
-
     }
 
 
+        public void somaArray ( int[] numeros){
 
-}
+        int soma = 0;
+        for(int num : numeros){
+            soma += num;
+            }
+            System.out.println(soma);
+
+        }
+        public void somaVarargs(int...numeros){
+            int soma = 0;
+            for(int num : numeros){
+                soma += num;
+            }
+            System.out.println(soma);
+        }
+
+
+        }
+
+
+
 
 
 
